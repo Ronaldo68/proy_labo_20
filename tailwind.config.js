@@ -11,8 +11,26 @@ export default {
 
     theme: {
         extend: {
+
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+            },
+
+            colors: {
+                primary: '#15803d', // verde oscuro
+                secondary: '#22c55e', // verde principal
+                accent: '#86efac', // verde claro
+                soft: '#f0fdf4', // fondo suave verde
+            },
+
+            boxShadow: {
+                soft: '0 10px 25px rgba(21, 128, 61, 0.15)',
+                strong: '0 20px 40px rgba(21, 128, 61, 0.25)',
+            },
+
+            borderRadius: {
+                xl: '1rem',
+                '2xl': '1.5rem',
             },
         },
     },
